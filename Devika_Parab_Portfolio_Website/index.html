@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website-Devika</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <!-- https://getbootstrap.com/docs/5.2/components/navbar/ -->
+    <!-- Add class of bg-light to nav element -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                      </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+        
+        <!-- main banner -->
+        <!-- https://getbootstrap.com/docs/5.2/layout/containers/ -->
+        <!-- https://getbootstrap.com/docs/5.2/layout/grid/ -->
+        <section class="container-fluid section bgimage" id="home">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero_text">
+                    <h2 class="hero_title">Hello, I'm Devika Parab</h2>
+                    <p class="hero_desc">I am an engineering student </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- about section -->
+        <section class="container mt-1 pt-1 section" id="about">
+            <h1 class="text-center">About Me</h1>
+            
+            <div class="row mt-1">
+                <div class="col-lg-4">
+                    <img src="images/devpic.jpg" class="image_about" alt="">
+                </div>
+    
+                <div class="col-lg-8">
+                    <p class="poppins"> Hello and welcome! I'm delighted to have you visit my portfolio website. 
+                        I'm currently in my final year of B.Tech in IT and getting ready to kickstart
+                         my career as a fresh software engineer. I've got a good handle on C++, DBMS,Web development.
+                         What sets me apart is my strong desire to learn new technologies. 
+                         Apart from this, I'm good at communication, teamwork, multitasking and easily adaptable
+                        As I get ready to dive into the professional world,
+                        I'm geared up to bring my best to the table, come up with new ideas, and grow as a software engineer. 
+                        Thanks for being a part of this exciting journey with me!
+                    </p>
+                    <div class="row mt-3">
+                    <h4 class="card-title mt-2" text-align:left></h4> My Hobbies</h4>
+                        <div class="col-md-8">
+                            <ul>
+                                <li>Cooking</li>
+                                <li>Movies</li>
+                                <li>Music</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="row mt-3">
+                    <h4 class="card-title mt-1" text-align: centre>Position of Responsibity</h4>
+                    <p> Being the <bold>Secretary of ECELL - UMIT</bold> I was able to empower our team to drive entrepreneurial initiatives with precision and efficiency. Leveraged my networking skills to secure
+                        valuable sponsorships from brands. Additionally managed our organization’s social media presence by effectively promoting
+                        events and fostering a strong online community.
+                        Also being a part of NSS I have volunteered actively by engaging in community outreach, dedicating my time and efforts to uplift underprivileged sections of
+society, fostering positive change through impactful social initiatives.
+                    </p>
+                  </div>
+              </div>
+          </div>
+      </section>
+      
+      <!-- skills section-->
+      <!-- https://getbootstrap.com/docs/5.2/components/card/#about -->
+      <section class="container section" id="services">
+          <h1 class="text-center">Skills</h1>
+          <div class="row">
+              <div class="col-lg-3 mt-4">
+                  <div class="card servicesText">
+                      <div class="card-body">
+                           <!-- <i class="fas servicesIcon fa-clock"></i>-->
+                          <h4 class="card-title mt-3">Web Development</h4>
+                          <p class="card-text mt-3">I'm skilled in HTML, CSS, and JavaScript, proficiently
+                             creating captivating web interfaces and implementing dynamic functionalities for seamless user experiences.
+                             My expertise spans content structuring, visual design, and interactive elements
+                          </p>
+                      </div>
+                  </div>  
+              </div>
+              <div class="col-lg-3 mt-4">
+                  <div class="card servicesText">
+                      <div class="card-body">
+                         <!--   <i class='fas servicesIcon fa-layer-group'></i>-->
+                          <h4 class="card-title mt-3">DSA</h4>
+                          <p class="card-text mt-3">I'm proficient in data structures such as arrays, 
+                            linked lists, stacks,queues along with strong grasp of the STL.
+                             This skill set empowers me to solve problems efficiently through algorithmic thinking and structured programming.
+                          </p>
+                      </div>
+                  </div>  
+              </div>
+
+              <div class="col-lg-3 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <!--  <i class='fas servicesIcon fa-layer-group'></i>-->
+                        <h4 class="card-title mt-3">Operating Systems</h4>
+                        <p class="card-text mt-3"> I possess a solid grasp of fundamental Operating System concepts, 
+                            encompassing process management, memory allocation, and file system structures.
+                             My understanding allows me to navigate core OS functionalities.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+  
+              <div class="col-lg-3 mt-4">
+                  <div class="card servicesText">
+                      <div class="card-body">
+                          <!--<i class='far servicesIcon fa-check-circle'></i>-->
+                          <h4 class="card-title mt-3">Database Management</h4>
+                          <p class="card-text mt-3">I excel in DBMS with a knack for data organization,
+                          expertise in complex queries and schemas,my extensive MySQL
+                             knowledge empowers me in performance optimization and intricate relational operations
+                          </p>
+                      </div>
+                  </div>  
+              </div>
+          </div>
+  
+          <div class="row">
+              <div class="col-lg-4 mt-4">
+                  <div class="card servicesText">
+                      <div class="card-body">
+                           <!-- <i class='fas servicesIcon fa-search'></i>-->
+                          <h4 class="card-title mt-3">Object Oriented Programming</h4>
+                          <p class="card-text mt-3">I possess an intermediate-level proficiency in C++ 
+                            Object-Oriented Programming (OOP), adept at designing classes, inheritance,
+                             and encapsulation. My skills enable me to develop efficient,
+                             modular code while applying principles of polymorphism and abstraction.
+                          </p>
+                      </div>
+                  </div>  
+              </div>
+  
+              <div class="col-lg-4 mt-4">
+                  <div class="card servicesText">
+                      <div class="card-body">
+                          <!--  <i class='fas servicesIcon fa-shield-alt'></i> -->
+                          <h4 class="card-title mt-3">Soft Skills</h4>
+                          <p class="card-text mt-3">"I excel in effective communication, 
+                            adeptly multitask to tackle complex challenges, and consistently exhibit
+                             strong problem-solving abilities. My natural adaptability allows me to seamlessly
+                             navigate dynamic environments, 
+                            and my collaborative nature makes me a valuable asset as a team player."
+                          </p>
+                      </div>
+                  </div>  
+              </div>
+  
+              <div class="col-lg-4 mt-4">
+                  <div class="card servicesText">
+                      <div class="card-body">
+                         <!-- <i class='fas servicesIcon fa-wrench'></i>-->
+                          <h4 class="card-title mt-3">Languages</h4>
+                          <p class="card-text mt-3">"I possess a strong proficiency in the C++ programming language,
+                             coupled with a adept command of SQL. Additionally, I am skilled in the C programming language, 
+                              and I have hands-on experience with HTML and CSS,
+                               showcasing my well-rounded technical expertise.".
+                          </p>
+                      </div>
+                  </div>  
+              </div>
+          </div>
+      </section>
+  
+      <!-- project section-->
+      <section class="section" id="portfolio">
+          <div class="container mt-3">
+              <h1 class="text-center">Projects</h1>
+              <div class="row">
+                  <div class="col-lg-4 mt-4">
+                      <div class="card">
+                          <img class="card-img-top" src="images/projectpic1.jpg" alt="Card image" style="width:100%">
+                          <div class="card-body">
+                              <h4 class="card-title">ReviewAnalyzer</h4>
+                              <p class="card-text">• Utilized NLP techniques for sentiment classification and 
+                                feature extraction from customer reviews</p>
+                                <p>• Employed aspect-based sentiment analysis to gain insights into hotel attributes</p>
+                              <p>• Strengthened proficiency in NLP, text classification, 
+                                and data analysis</p>
+                              <div class="text-center">
+                                  <a href="#" class="btn btn-success">Link</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="col-lg-4 mt-4">
+                      <div class="card">
+                          <img class="card-img-top" src="images/projectpic4.jpg" alt="Card image" style="width:100%">
+                          <div class="card-body">
+                              <h4 class="card-title">TripBuddy</h4>
+                              <p class="card-text">• Designed and developed a dynamic "Trip Guide" website using HTML, CSS, and JavaScript.</p>
+                                <p>•User-friendly platform to plan travel destinations.</p>
+                                <p>• Gained hands-on experience in web development and front-end design</p>
+                              <div class="text-center">
+                                  <a href="#" class="btn btn-success">Link</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="col-lg-4 mt-4">
+                      <div class="card">
+                          <img class="card-img-top" src="images/projectpic2.jpg" alt="Card image" style="width:100%">
+                          <div class="card-body">
+                              <h4 class="card-title">StoreEasy</h4>
+                              <p class="card-text">• Practical experience in real-world application development</p>
+                              </p> • Utilized object-oriented principles, enhancing code modularity and reusability while honing skills
+                                in C++ programming</p>
+                                • Gained practical experience in handling user input</p>
+                              <div class="text-center">
+                                  <a href="#" class="btn btn-success">Link</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <br>
+
+      <!-- contact section-->
+      <!-- https://getbootstrap.com/docs/5.2/forms/overview -->
+      <section class="container mt-3 section" id="contact">
+          <h1 class="text-center">Contact Me</h1>
+  
+          <div class="row mt-4">
+              <div class="col-lg-6">
+                  <!-- to edit google map go to https://www.embed-map.com type your location, generate html code and copy the html  -->
+                  <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                      <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                          <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Parel,+Mumbai,+Maharashtra,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                          </iframe>
+                      </div>
+                      <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                      <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                      </style>
+                  </div>
+              </div>
+  
+              <div class="col-lg-6">
+                  <!-- form fields -->
+                  <form>
+                      <input type="text" class="form-control form-control-lg" placeholder="Name">
+                      <input type="email" class="form-control mt-3" placeholder="Email">
+                      <input type="text" class="form-control mt-3" placeholder="Subject">
+                      <div class="mb-3 mt-3">
+                          <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                      </div>
+                  </form>
+                  <button type="button" class="btn btn-success mt-3">Contact Me</button>
+              </div>
+          </div>
+          
+      </section>
+      
+      <!-- footer section-->
+      <footer class="container-fluid footer" id="footer">
+          <!-- social media icons -->
+          <div class="social-icons mt-4">
+              <a href="https://github.com/Devika1702/" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://leetcode.com/devika17/" target="_blank"><i class="fab fa-leetcode"></i></a>
+               <a href="mailto:devikaparab17@gmail.com" target="_blank"><i class="fab fa-email"></i></a>
+              <a href="https://www.linkedin.com/in/devika-parab-273794206/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <span>Created By <a href="https://www.linkedin.com/in/devika-parab-273794206/">DevikaParab</a> 
+                | <span class="far fa-copyright"></span> 2022-2023 All rights reserved.</span>
+
+            </div>
+      </footer>
+      
+  
+      <!-- load javascript after loading all html content -->
+      <script src="script/script.js"></script>
+  
+  </body>
+  
+  </html>
+  
