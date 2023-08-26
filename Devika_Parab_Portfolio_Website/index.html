@@ -15,8 +15,6 @@
 
 <body>
     <!-- navbar -->
-    <!-- https://getbootstrap.com/docs/5.2/components/navbar/ -->
-    <!-- Add class of bg-light to nav element -->
     <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="#">Portfolio</a>
@@ -46,9 +44,7 @@
             </div>
         </nav>
         
-        <!-- main banner -->
-        <!-- https://getbootstrap.com/docs/5.2/layout/containers/ -->
-        <!-- https://getbootstrap.com/docs/5.2/layout/grid/ -->
+        <!-- main -->
         <section class="container-fluid section bgimage" id="home">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero_text">
@@ -102,14 +98,12 @@ society, fostering positive change through impactful social initiatives.
       </section>
       
       <!-- skills section-->
-      <!-- https://getbootstrap.com/docs/5.2/components/card/#about -->
       <section class="container section" id="services">
           <h1 class="text-center">Skills</h1>
           <div class="row">
               <div class="col-lg-3 mt-4">
                   <div class="card servicesText">
                       <div class="card-body">
-                           <!-- <i class="fas servicesIcon fa-clock"></i>-->
                           <h4 class="card-title mt-3">Web Development</h4>
                           <p class="card-text mt-3">I'm skilled in HTML, CSS, and JavaScript, proficiently
                              creating captivating web interfaces and implementing dynamic functionalities for seamless user experiences.
@@ -121,7 +115,6 @@ society, fostering positive change through impactful social initiatives.
               <div class="col-lg-3 mt-4">
                   <div class="card servicesText">
                       <div class="card-body">
-                         <!--   <i class='fas servicesIcon fa-layer-group'></i>-->
                           <h4 class="card-title mt-3">DSA</h4>
                           <p class="card-text mt-3">I'm proficient in data structures such as arrays, 
                             linked lists, stacks,queues along with strong grasp of the STL.
@@ -134,7 +127,6 @@ society, fostering positive change through impactful social initiatives.
               <div class="col-lg-3 mt-4">
                 <div class="card servicesText">
                     <div class="card-body">
-                        <!--  <i class='fas servicesIcon fa-layer-group'></i>-->
                         <h4 class="card-title mt-3">Operating Systems</h4>
                         <p class="card-text mt-3"> I possess a solid grasp of fundamental Operating System concepts, 
                             encompassing process management, memory allocation, and file system structures.
@@ -147,7 +139,6 @@ society, fostering positive change through impactful social initiatives.
               <div class="col-lg-3 mt-4">
                   <div class="card servicesText">
                       <div class="card-body">
-                          <!--<i class='far servicesIcon fa-check-circle'></i>-->
                           <h4 class="card-title mt-3">Database Management</h4>
                           <p class="card-text mt-3">I excel in DBMS with a knack for data organization,
                           expertise in complex queries and schemas,my extensive MySQL
@@ -162,8 +153,7 @@ society, fostering positive change through impactful social initiatives.
               <div class="col-lg-4 mt-4">
                   <div class="card servicesText">
                       <div class="card-body">
-                           <!-- <i class='fas servicesIcon fa-search'></i>-->
-                          <h4 class="card-title mt-3">Object Oriented Programming</h4>
+                           <h4 class="card-title mt-3">Object Oriented Programming</h4>
                           <p class="card-text mt-3">I possess an intermediate-level proficiency in C++ 
                             Object-Oriented Programming (OOP), adept at designing classes, inheritance,
                              and encapsulation. My skills enable me to develop efficient,
@@ -176,8 +166,7 @@ society, fostering positive change through impactful social initiatives.
               <div class="col-lg-4 mt-4">
                   <div class="card servicesText">
                       <div class="card-body">
-                          <!--  <i class='fas servicesIcon fa-shield-alt'></i> -->
-                          <h4 class="card-title mt-3">Soft Skills</h4>
+                           <h4 class="card-title mt-3">Soft Skills</h4>
                           <p class="card-text mt-3">"I excel in effective communication, 
                             adeptly multitask to tackle complex challenges, and consistently exhibit
                              strong problem-solving abilities. My natural adaptability allows me to seamlessly
@@ -191,8 +180,7 @@ society, fostering positive change through impactful social initiatives.
               <div class="col-lg-4 mt-4">
                   <div class="card servicesText">
                       <div class="card-body">
-                         <!-- <i class='fas servicesIcon fa-wrench'></i>-->
-                          <h4 class="card-title mt-3">Languages</h4>
+                       <h4 class="card-title mt-3">Languages</h4>
                           <p class="card-text mt-3">"I possess a strong proficiency in the C++ programming language,
                              coupled with a adept command of SQL. Additionally, I am skilled in the C programming language, 
                               and I have hands-on experience with HTML and CSS,
@@ -260,13 +248,11 @@ society, fostering positive change through impactful social initiatives.
               <br>
 
       <!-- contact section-->
-      <!-- https://getbootstrap.com/docs/5.2/forms/overview -->
       <section class="container mt-3 section" id="contact">
           <h1 class="text-center">Contact Me</h1>
   
           <div class="row mt-4">
               <div class="col-lg-6">
-                  <!-- to edit google map go to https://www.embed-map.com type your location, generate html code and copy the html  -->
                   <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
                       <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
                           <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Parel,+Mumbai,+Maharashtra,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
@@ -279,7 +265,7 @@ society, fostering positive change through impactful social initiatives.
               </div>
   
               <div class="col-lg-6">
-                  <!-- form fields -->
+                  <!-- form-->
                   <form>
                       <input type="text" class="form-control form-control-lg" placeholder="Name">
                       <input type="email" class="form-control mt-3" placeholder="Email">
@@ -309,9 +295,8 @@ society, fostering positive change through impactful social initiatives.
       </footer>
       
   
-      <!-- load javascript after loading all html content -->
+      <!-- loading javascript-->
       <script src="script/script.js"></script>
-  
   </body>
   
   </html>
